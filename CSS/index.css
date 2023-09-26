@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding-inline-start: 1.2em;
+  list-style: none;
+}
+li {
+  line-height: 1.5em;
+}
+h2 {
+  font-size: 1.5rem;
+}
+
+.pet {
+  border: 0.25em solid black;
+}
+
+.dog li::before {
+  content: 🐶;
+}
+.cat li::before {
+  content: 😺;
+}
+
+.parrot li::before {
+  content: 🦜;
+}
+.snake li::before {
+  content: 🐍;
+}
+.lizzard li::before {
+  content: 🦖;
+}
